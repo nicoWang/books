@@ -26,6 +26,7 @@ class BooksViewController: BaseViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(BooksTableViewCell.self)
+        tableView.rowHeight = UITableView.automaticDimension
     }
 
 }

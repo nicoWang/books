@@ -13,6 +13,7 @@ class BookRepository: BaseApiManager {
         return Promise<[Book]> { seal  in
             
             request(url: Constants.mainUrl, method: .get, parameters: nil, headers: nil).done { response in
+                
                 guard let books = try? JSONDecoder().decode([Book].self, from: response) else { return                     seal.reject(BaseError.undefined) }
                 
                 seal.fulfill(books)
