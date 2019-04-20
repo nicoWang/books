@@ -17,6 +17,9 @@
 		03057CF7226BAF7F0091BEAB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03057CF6226BAF7F0091BEAB /* Book.swift */; };
 		03057CFB226BB1200091BEAB /* BookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03057CFA226BB1200091BEAB /* BookRepository.swift */; };
 		03057CFD226BB15E0091BEAB /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03057CFC226BB15E0091BEAB /* Contants.swift */; };
+		03057D01226BB2450091BEAB /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03057CFF226BB2450091BEAB /* ServiceLocator.swift */; };
+		03057D05226BB2940091BEAB /* CoreServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03057D04226BB2940091BEAB /* CoreServiceLocator.swift */; };
+		03057D08226BB3170091BEAB /* BookUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03057D07226BB3170091BEAB /* BookUseCase.swift */; };
 		EA3FC6E58C4BBFC65C534605 /* Pods_books.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772E46B389572A375E4DB429 /* Pods_books.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,9 @@
 		03057CF6226BAF7F0091BEAB /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		03057CFA226BB1200091BEAB /* BookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRepository.swift; sourceTree = "<group>"; };
 		03057CFC226BB15E0091BEAB /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		03057CFF226BB2450091BEAB /* ServiceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		03057D04226BB2940091BEAB /* CoreServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreServiceLocator.swift; sourceTree = "<group>"; };
+		03057D07226BB3170091BEAB /* BookUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookUseCase.swift; sourceTree = "<group>"; };
 		6AE67989665F77FBB29CE742 /* Pods-books.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-books.debug.xcconfig"; path = "Pods/Target Support Files/Pods-books/Pods-books.debug.xcconfig"; sourceTree = "<group>"; };
 		6EC44DF716034023D20F7DA2 /* Pods-books.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-books.release.xcconfig"; path = "Pods/Target Support Files/Pods-books/Pods-books.release.xcconfig"; sourceTree = "<group>"; };
 		772E46B389572A375E4DB429 /* Pods_books.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_books.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +77,7 @@
 		03057CDB226BADF30091BEAB /* books */ = {
 			isa = PBXGroup;
 			children = (
+				03057CFE226BB2450091BEAB /* ServiceLocator */,
 				03057CF8226BB0720091BEAB /* Common */,
 				03057CEE226BAF200091BEAB /* Core */,
 				03057CE3226BADF50091BEAB /* Assets.xcassets */,
@@ -83,6 +90,8 @@
 		03057CEE226BAF200091BEAB /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				03057D06226BB3020091BEAB /* UseCase */,
+				03057D03226BB2840091BEAB /* ServiceLocator */,
 				03057CF9226BB0AA0091BEAB /* Repository */,
 				03057CF5226BAF720091BEAB /* Model */,
 				03057CEF226BAF450091BEAB /* Base */,
@@ -132,6 +141,30 @@
 				03057CFA226BB1200091BEAB /* BookRepository.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		03057CFE226BB2450091BEAB /* ServiceLocator */ = {
+			isa = PBXGroup;
+			children = (
+				03057CFF226BB2450091BEAB /* ServiceLocator.swift */,
+			);
+			path = ServiceLocator;
+			sourceTree = "<group>";
+		};
+		03057D03226BB2840091BEAB /* ServiceLocator */ = {
+			isa = PBXGroup;
+			children = (
+				03057D04226BB2940091BEAB /* CoreServiceLocator.swift */,
+			);
+			path = ServiceLocator;
+			sourceTree = "<group>";
+		};
+		03057D06226BB3020091BEAB /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				03057D07226BB3170091BEAB /* BookUseCase.swift */,
+			);
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 		C5CE4D0A55CCB00099FA8897 /* Pods */ = {
@@ -277,6 +310,9 @@
 				03057CDF226BADF30091BEAB /* ViewController.swift in Sources */,
 				03057CFB226BB1200091BEAB /* BookRepository.swift in Sources */,
 				03057CFD226BB15E0091BEAB /* Contants.swift in Sources */,
+				03057D05226BB2940091BEAB /* CoreServiceLocator.swift in Sources */,
+				03057D01226BB2450091BEAB /* ServiceLocator.swift in Sources */,
+				03057D08226BB3170091BEAB /* BookUseCase.swift in Sources */,
 				03057CF3226BAF450091BEAB /* BaseApiManager.swift in Sources */,
 				03057CF7226BAF7F0091BEAB /* Book.swift in Sources */,
 				03057CDD226BADF30091BEAB /* AppDelegate.swift in Sources */,
