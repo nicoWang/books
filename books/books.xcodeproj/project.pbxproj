@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		03057CDD226BADF30091BEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03057CDC226BADF30091BEAB /* AppDelegate.swift */; };
-		03057CDF226BADF30091BEAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03057CDE226BADF30091BEAB /* ViewController.swift */; };
 		03057CE2226BADF30091BEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03057CE0226BADF30091BEAB /* Main.storyboard */; };
 		03057CE4226BADF50091BEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03057CE3226BADF50091BEAB /* Assets.xcassets */; };
 		03057CE7226BADF50091BEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03057CE5226BADF50091BEAB /* LaunchScreen.storyboard */; };
@@ -20,13 +19,28 @@
 		03057D01226BB2450091BEAB /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03057CFF226BB2450091BEAB /* ServiceLocator.swift */; };
 		03057D05226BB2940091BEAB /* CoreServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03057D04226BB2940091BEAB /* CoreServiceLocator.swift */; };
 		03057D08226BB3170091BEAB /* BookUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03057D07226BB3170091BEAB /* BookUseCase.swift */; };
+		0335A8FF226BB59100B18D70 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A8F3226BB59000B18D70 /* UIView.swift */; };
+		0335A900226BB59100B18D70 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A8F4226BB59000B18D70 /* UITableView.swift */; };
+		0335A901226BB59100B18D70 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A8F5226BB59000B18D70 /* UITableViewCell.swift */; };
+		0335A902226BB59100B18D70 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A8F6226BB59000B18D70 /* UIImage.swift */; };
+		0335A903226BB59100B18D70 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A8F8226BB59100B18D70 /* BaseViewController.swift */; };
+		0335A904226BB59100B18D70 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A8F9226BB59100B18D70 /* Presenter.swift */; };
+		0335A906226BB59100B18D70 /* Loader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0335A8FC226BB59100B18D70 /* Loader.xib */; };
+		0335A907226BB59100B18D70 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A8FD226BB59100B18D70 /* Loader.swift */; };
+		0335A908226BB59100B18D70 /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A8FE226BB59100B18D70 /* FlowController.swift */; };
+		0335A90B226BB65700B18D70 /* FlowControllerServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A90A226BB65700B18D70 /* FlowControllerServiceLocator.swift */; };
+		0335A910226BB70E00B18D70 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A90E226BB70E00B18D70 /* BooksViewController.swift */; };
+		0335A911226BB70E00B18D70 /* BooksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0335A90F226BB70E00B18D70 /* BooksViewController.xib */; };
+		0335A913226BB77A00B18D70 /* BooksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A912226BB77A00B18D70 /* BooksPresenter.swift */; };
+		0335A917226BB88200B18D70 /* BooksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A915226BB88200B18D70 /* BooksTableViewCell.swift */; };
+		0335A918226BB88200B18D70 /* BooksTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0335A916226BB88200B18D70 /* BooksTableViewCell.xib */; };
+		0335A91B226BBCE800B18D70 /* FrontServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335A91A226BBCE800B18D70 /* FrontServiceLocator.swift */; };
 		EA3FC6E58C4BBFC65C534605 /* Pods_books.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772E46B389572A375E4DB429 /* Pods_books.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03057CD9226BADF30091BEAB /* books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03057CDC226BADF30091BEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03057CDE226BADF30091BEAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03057CE1226BADF30091BEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03057CE3226BADF50091BEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03057CE6226BADF50091BEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +53,22 @@
 		03057CFF226BB2450091BEAB /* ServiceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
 		03057D04226BB2940091BEAB /* CoreServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreServiceLocator.swift; sourceTree = "<group>"; };
 		03057D07226BB3170091BEAB /* BookUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookUseCase.swift; sourceTree = "<group>"; };
+		0335A8F3226BB59000B18D70 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		0335A8F4226BB59000B18D70 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		0335A8F5226BB59000B18D70 /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		0335A8F6226BB59000B18D70 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		0335A8F8226BB59100B18D70 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0335A8F9226BB59100B18D70 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		0335A8FC226BB59100B18D70 /* Loader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Loader.xib; sourceTree = "<group>"; };
+		0335A8FD226BB59100B18D70 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		0335A8FE226BB59100B18D70 /* FlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
+		0335A90A226BB65700B18D70 /* FlowControllerServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowControllerServiceLocator.swift; sourceTree = "<group>"; };
+		0335A90E226BB70E00B18D70 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		0335A90F226BB70E00B18D70 /* BooksViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BooksViewController.xib; sourceTree = "<group>"; };
+		0335A912226BB77A00B18D70 /* BooksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksPresenter.swift; sourceTree = "<group>"; };
+		0335A915226BB88200B18D70 /* BooksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewCell.swift; sourceTree = "<group>"; };
+		0335A916226BB88200B18D70 /* BooksTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BooksTableViewCell.xib; sourceTree = "<group>"; };
+		0335A91A226BBCE800B18D70 /* FrontServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontServiceLocator.swift; sourceTree = "<group>"; };
 		6AE67989665F77FBB29CE742 /* Pods-books.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-books.debug.xcconfig"; path = "Pods/Target Support Files/Pods-books/Pods-books.debug.xcconfig"; sourceTree = "<group>"; };
 		6EC44DF716034023D20F7DA2 /* Pods-books.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-books.release.xcconfig"; path = "Pods/Target Support Files/Pods-books/Pods-books.release.xcconfig"; sourceTree = "<group>"; };
 		772E46B389572A375E4DB429 /* Pods_books.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_books.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +107,7 @@
 		03057CDB226BADF30091BEAB /* books */ = {
 			isa = PBXGroup;
 			children = (
+				0335A8F1226BB56B00B18D70 /* Front */,
 				03057CFE226BB2450091BEAB /* ServiceLocator */,
 				03057CF8226BB0720091BEAB /* Common */,
 				03057CEE226BAF200091BEAB /* Core */,
@@ -128,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				03057CDC226BADF30091BEAB /* AppDelegate.swift */,
-				03057CDE226BADF30091BEAB /* ViewController.swift */,
 				03057CE0226BADF30091BEAB /* Main.storyboard */,
 				03057CFC226BB15E0091BEAB /* Contants.swift */,
 			);
@@ -165,6 +195,93 @@
 				03057D07226BB3170091BEAB /* BookUseCase.swift */,
 			);
 			path = UseCase;
+			sourceTree = "<group>";
+		};
+		0335A8F1226BB56B00B18D70 /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				0335A909226BB60000B18D70 /* ViewController */,
+				0335A8F7226BB59100B18D70 /* Base */,
+				0335A8FA226BB59100B18D70 /* Common */,
+				0335A8F2226BB59000B18D70 /* Extension */,
+			);
+			path = Front;
+			sourceTree = "<group>";
+		};
+		0335A8F2226BB59000B18D70 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0335A8F3226BB59000B18D70 /* UIView.swift */,
+				0335A8F4226BB59000B18D70 /* UITableView.swift */,
+				0335A8F5226BB59000B18D70 /* UITableViewCell.swift */,
+				0335A8F6226BB59000B18D70 /* UIImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0335A8F7226BB59100B18D70 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0335A8F8226BB59100B18D70 /* BaseViewController.swift */,
+				0335A8F9226BB59100B18D70 /* Presenter.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0335A8FA226BB59100B18D70 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0335A919226BBCD800B18D70 /* ServiceLocator */,
+				0335A90D226BB66800B18D70 /* Loader */,
+				0335A90C226BB65F00B18D70 /* Flow */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0335A909226BB60000B18D70 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0335A914226BB84600B18D70 /* Cell */,
+				0335A90E226BB70E00B18D70 /* BooksViewController.swift */,
+				0335A90F226BB70E00B18D70 /* BooksViewController.xib */,
+				0335A912226BB77A00B18D70 /* BooksPresenter.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0335A90C226BB65F00B18D70 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				0335A8FE226BB59100B18D70 /* FlowController.swift */,
+				0335A90A226BB65700B18D70 /* FlowControllerServiceLocator.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		0335A90D226BB66800B18D70 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				0335A8FC226BB59100B18D70 /* Loader.xib */,
+				0335A8FD226BB59100B18D70 /* Loader.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		0335A914226BB84600B18D70 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0335A915226BB88200B18D70 /* BooksTableViewCell.swift */,
+				0335A916226BB88200B18D70 /* BooksTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0335A919226BBCD800B18D70 /* ServiceLocator */ = {
+			isa = PBXGroup;
+			children = (
+				0335A91A226BBCE800B18D70 /* FrontServiceLocator.swift */,
+			);
+			path = ServiceLocator;
 			sourceTree = "<group>";
 		};
 		C5CE4D0A55CCB00099FA8897 /* Pods */ = {
@@ -244,8 +361,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0335A918226BB88200B18D70 /* BooksTableViewCell.xib in Resources */,
+				0335A911226BB70E00B18D70 /* BooksViewController.xib in Resources */,
 				03057CE7226BADF50091BEAB /* LaunchScreen.storyboard in Resources */,
 				03057CE4226BADF50091BEAB /* Assets.xcassets in Resources */,
+				0335A906226BB59100B18D70 /* Loader.xib in Resources */,
 				03057CE2226BADF30091BEAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,15 +427,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				03057CF4226BAF450091BEAB /* Error.swift in Sources */,
-				03057CDF226BADF30091BEAB /* ViewController.swift in Sources */,
+				0335A904226BB59100B18D70 /* Presenter.swift in Sources */,
+				0335A8FF226BB59100B18D70 /* UIView.swift in Sources */,
 				03057CFB226BB1200091BEAB /* BookRepository.swift in Sources */,
+				0335A910226BB70E00B18D70 /* BooksViewController.swift in Sources */,
 				03057CFD226BB15E0091BEAB /* Contants.swift in Sources */,
+				0335A91B226BBCE800B18D70 /* FrontServiceLocator.swift in Sources */,
+				0335A917226BB88200B18D70 /* BooksTableViewCell.swift in Sources */,
+				0335A903226BB59100B18D70 /* BaseViewController.swift in Sources */,
+				0335A907226BB59100B18D70 /* Loader.swift in Sources */,
+				0335A90B226BB65700B18D70 /* FlowControllerServiceLocator.swift in Sources */,
+				0335A913226BB77A00B18D70 /* BooksPresenter.swift in Sources */,
+				0335A900226BB59100B18D70 /* UITableView.swift in Sources */,
 				03057D05226BB2940091BEAB /* CoreServiceLocator.swift in Sources */,
 				03057D01226BB2450091BEAB /* ServiceLocator.swift in Sources */,
 				03057D08226BB3170091BEAB /* BookUseCase.swift in Sources */,
 				03057CF3226BAF450091BEAB /* BaseApiManager.swift in Sources */,
 				03057CF7226BAF7F0091BEAB /* Book.swift in Sources */,
 				03057CDD226BADF30091BEAB /* AppDelegate.swift in Sources */,
+				0335A901226BB59100B18D70 /* UITableViewCell.swift in Sources */,
+				0335A902226BB59100B18D70 /* UIImage.swift in Sources */,
+				0335A908226BB59100B18D70 /* FlowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,7 +20,9 @@ class ServiceLocator {
     static func registerModules() {
         
         sharedLocator.registerModules([
-            CoreServiceLocator()
+            FlowControllerServiceLocator(),
+            CoreServiceLocator(),
+            FrontServiceLocator()
             ])
     }
     
